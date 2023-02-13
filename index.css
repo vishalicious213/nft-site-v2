@@ -27,7 +27,9 @@ h3 {
 }
 
 p {
-    line-height: 23px;
+    /* using a unitless line height preserves ratio with 
+    font-size by multiplying times the font-size */
+    line-height: 1.5;
 }
 
 .subheading {
