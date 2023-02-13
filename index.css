@@ -89,7 +89,7 @@ a:active {
 header, 
 section, 
 footer {
-    padding: 46px 0;
+    padding: 2.875em 0;
 }
 
 header, 
@@ -111,7 +111,7 @@ header,
     display: block;
     width: 100%;
     max-width: 640px;
-    margin: 0 auto 32px;
+    margin: 0 auto 2em;
 }
 
 .section-two-image-container {
