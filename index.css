@@ -118,6 +118,7 @@ header,
 
 .section-two-image-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -129,4 +130,12 @@ header,
 footer {
     text-align: center;
     color: #5f29a3;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media only screen and (min-width: 480px) {
+    .section-two-image-container {
+        flex-direction: row;
+    }
 }
