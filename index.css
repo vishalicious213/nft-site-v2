@@ -92,7 +92,7 @@ a:active {
 header, 
 section, 
 footer {
-    padding: 2.875em 0;
+    padding: 1.25rem;
 }
 
 header, 
@@ -138,5 +138,13 @@ footer {
 
     .feature-image {
         width: 49%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header, 
+    section, 
+    footer {
+        padding: 2.875em 0;
     }
 }
