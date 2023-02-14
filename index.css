@@ -165,4 +165,8 @@ footer {
     .subheading {
         font-size: 1.25rem;
     }
+
+    p {
+        font-size: 1.125rem;
+    }
 }
