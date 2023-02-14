@@ -188,6 +188,15 @@ li:not(:last-child) {
         display: flex;
     }
 
+    header .container {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav li {
+        margin-left: 1.25em;
+    }
+
     .btn {
         display: inline-block;
         margin-right: .5em;
