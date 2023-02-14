@@ -36,7 +36,7 @@ p {
 
 .subheading {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: #d0aaff;
 }
 
@@ -160,5 +160,9 @@ footer {
 
     h2 {
         font-size: 1.75rem;
+    }
+
+    .subheading {
+        font-size: 1.25rem;
     }
 }
