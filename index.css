@@ -183,6 +183,11 @@ li:not(:last-child) {
         padding: 2.875em 0;
     }
 
+    header .container,
+    nav ul {
+        display: flex;
+    }
+
     .btn {
         display: inline-block;
         margin-right: .5em;
