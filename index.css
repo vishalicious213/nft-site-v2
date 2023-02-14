@@ -20,6 +20,7 @@ h2 {
     color: #451c7a;
     font-size: 1.75rem;
     margin-top: 0;
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -116,15 +117,10 @@ header,
     margin: 0 auto 2em;
 }
 
-.section-two-image-container {
-    display: flex;
-    flex-direction: column;
-}
-
 .feature-image {
-    /* width: 100%; not needed because container has flex/column */
+    width: 100%;
     border-radius: 4.6px;
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 footer {
@@ -136,7 +132,7 @@ footer {
 
 @media only screen and (min-width: 480px) {
     .section-two-image-container {
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
     }
 
