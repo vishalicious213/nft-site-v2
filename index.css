@@ -18,7 +18,7 @@ h1 {
 
 h2 {
     color: #451c7a;
-    font-size: 1.75rem;
+    font-size: 1.375rem;
     margin-top: 0;
     margin-bottom: 1em;
 }
@@ -156,5 +156,9 @@ footer {
 
     h1 {
         font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
     }
 }
